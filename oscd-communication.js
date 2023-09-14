@@ -3394,6 +3394,16 @@ class OscdCommunicationPlugin extends s {
     }
 }
 OscdCommunicationPlugin.styles = i$5 `
+    * {
+      --oscd-action-pane-theme-surface: var(--oscd-theme-base3);
+      --oscd-action-pane-theme-on-surface: var(--oscd-theme-base00);
+      --oscd-action-pane-theme-on-primary: var(--oscd-theme-base2);
+      --oscd-action-pane-theme-font: 'Roboto';
+
+      --oscd-action-icon-theme-on-surface: var(--oscd-theme-base00);
+      --oscd-action-icon-theme-on-primary: var(--oscd-theme-base2);
+    }
+
     :host {
       width: 100vw;
     }
